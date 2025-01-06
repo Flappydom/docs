@@ -143,7 +143,7 @@ Variables used:
 This command sends a simple shoutout to a specified user.
 
 ```
-!cmd add !shoutout Check out ${1}, they are playing ${game ${1}} at https://twitch.tv/${1}
+!cmd add !shoutout Check out ${1}, they are playing ${game ${1}} at https://twitch.tv/${channel ${1}}
 ```
 
 **Output:**
@@ -157,3 +157,4 @@ Variables used:
 
 - [$(args)](../../variables/args.md) - The name of the user to shoutout
 - [$(game)](../../variables/game.md) - The game the user is currently playing
+- [$(channel)](../../variables/channel.md) - The channel name of the user mentioned
